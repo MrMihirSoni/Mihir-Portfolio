@@ -1,0 +1,94 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: rgb(10, 20, 20);
+}
+
+.navigationItems {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.navigationItems:hover,
+.active,
+.listItems:hover {
+    color: rgb(200, 150, 100);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(200, 150, 100);
+}
+
+.contactButton {
+    background-color: rgb(200, 150, 100);
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.contactButton:hover {
+    background-color: rgb(170, 130, 70);
+}
+
+.logoImg {
+    height: 4rem;
+}
+
+.menuBtnDiv {
+    display: none;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    right: 0.5rem;
+    z-index: 2;
+    padding: 1rem;
+    background-color: rgb(10, 10, 10);
+    border-radius: 2rem 0 2rem 2rem;
+    min-width: 10rem;
+}
+
+.listItems {
+    font-size: 2rem;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+
+.menuBtn {
+    font-size: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .menuBtnDiv {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .contactDiv {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .listItems {
+        font-size: 1.4rem;
+    }
+}

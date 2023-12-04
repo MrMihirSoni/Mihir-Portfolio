@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 8rem;
+    background-color: rgb(30, 30, 30);
+    padding: 3rem;
+}
+.footerContent{
+    display: flex;
+    gap: 2rem;
+}
+.footerContent>a{
+    font-size: 2rem;
+}

@@ -1,0 +1,66 @@
+.skills{
+    padding-top: 8rem;
+}
+.skillText{
+    text-align: center;
+    color: brown;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.skillContent{
+    margin: 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.skillContent>div{
+    width: 8rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skillContent>div>img{
+    width:100%
+}
+.skillContent>div>p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.skillParagraph{
+    margin: 5rem 10rem 0;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:1050px){
+    .skills{
+        padding-top: 4rem;
+    }
+    .skillContent{
+        margin: 3rem 4rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .skillContent{
+        width: fit-content;
+        margin: 3rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .skills{
+        padding-top: 2rem;
+    }
+    .skillContent>div{
+        width: 4rem;
+        height: 7rem;
+    }
+    .skillContent>div>p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:300px) {
+    .skillContent{
+        gap: 2rem;
+    }
+}

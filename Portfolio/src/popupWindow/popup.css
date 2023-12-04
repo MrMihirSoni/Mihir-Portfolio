@@ -1,0 +1,10 @@
+
+.popup{
+    background-color: brown;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.popup>p{
+    color: rgb(250, 220, 170);
+    width: max-content;
+}

@@ -1,0 +1,76 @@
+.about{
+    padding-top: 8rem;
+}
+.aboutText{
+    text-align: center;
+    color: brown;
+    font-size: 3rem;
+}
+.aboutContent{
+    margin: 3rem 10rem 0;
+    background-color: rgb(250, 220, 170);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+.aboutContent>h3{
+    font-size: 3rem;
+    color: brown;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid brown;
+}
+.aboutContent>p{
+    font-size: 2rem;
+    color: rgb(60, 60, 60);
+    margin-top: 2rem;
+}
+.aboutContent>p:nth-child(3){
+    font-size: 1.5rem;
+}
+.aboutContent>p:nth-child(3)>i{
+    cursor: pointer;
+}
+.aboutContent>p:nth-child(3)>i:hover,
+.aboutContent>p:nth-child(5)>i:hover{
+    color: brown;
+}
+@media screen and (max-width:1150px){
+    .aboutContent{
+        margin: 3rem 4rem;
+    }
+}
+@media screen and (max-width:800px){
+    .about{
+        padding-top: 4rem;
+    }
+    .aboutContent{
+        padding: 2rem 1rem;
+    }
+    .aboutContent>h3{
+        font-size: 2rem;
+        padding-bottom: 0.8rem;
+    }
+    .aboutContent>p{
+        font-size: 1.4rem;
+        margin-top: 1.6rem;
+    }
+    .aboutContent>p:nth-child(3){
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:500px){
+    .aboutContent{
+        margin: 2rem 5%;
+    }
+    .aboutContent>h3{
+        font-size: 1.6rem;
+        padding-bottom: 0.8rem;
+    }
+    .aboutContent>p{
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+    }
+    .aboutContent>p:nth-child(3){
+        font-size: 1rem;
+    }
+
+}

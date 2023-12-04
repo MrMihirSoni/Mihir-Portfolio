@@ -1,0 +1,126 @@
+.form {
+    width: 800px;
+    margin: 8rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form label {
+    font-size: 2rem;
+}
+
+.form input,
+.form textarea {
+    width: 80%;
+    border: 2px solid rgb(50, 50, 50);
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgb(250, 240, 220);
+}
+
+.contactText {
+    text-align: center;
+    color: brown;
+    font-size: 3rem;
+}
+
+.contact {
+    padding-top: 6rem;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.contactInfo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(250, 230, 280, 0.25) 0px 6px 12px -2px, rgba(250, 230, 280, 0.3) 0px 3px 7px -3px;
+}
+
+.contactInfo>i {
+    font-size: 2rem;
+}
+
+.contactInfo>p {
+    width: fit-content;
+}
+
+.contactInfo>p:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.contactInfo>p:nth-child(3) {
+    font-size: 1.2rem;
+}
+
+.contactInfo>p:last-child {
+    font-size: 1.4rem;
+    color: brown;
+    cursor: pointer;
+}
+
+.contactInfo>p:last-child:hover {
+    color: rgb(180, 70, 70);
+    border-bottom: 2px solid rgb(180, 70, 70);
+}
+
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.loading>img {
+    width: 5rem;
+}
+
+@media screen and (max-width:1150px) {
+    .contactDetails {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .contactDetails {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form {
+        width: 95%;
+    }
+
+    .form input,
+    .form textarea {
+        width: 65%;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+}
+@media screen and (max-width:450px){
+    .form>div{
+        flex-direction: column;
+    }
+    .form input,
+    .form textarea {
+        width: 100%;
+    }
+}

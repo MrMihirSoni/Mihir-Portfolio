@@ -1,0 +1,103 @@
+.projects{
+    padding-top: 8rem;
+    text-align: center;
+}
+.projectText{
+    text-align: center;
+    color: brown;
+    font-size: 3rem;
+}
+.projectList{
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 4rem auto;
+}
+.projectcard{
+    width: 500px;
+    background-color: rgb(250, 220, 170);
+    color: brown;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: rgba(114, 113, 113) 0px 1px 3px, rgba(117, 116, 116) 0px 1px 2px;
+}
+.projectImg>img{
+    width: 100%;
+    border-radius: 2rem 2rem 0 0 ;
+}
+.projectDesc{
+    border-top: 2px solid rgb(10, 20, 20);
+}
+.projectDesc>h2{
+    font-size: 2rem;
+    color: rgb(40, 40, 40);
+    border-bottom: 2px solid rgb(10, 20, 20);
+}
+.projectDesc>p{
+    font-size: 1.6rem;
+    color: rgb(60, 60, 60);
+}
+.projectBtn{
+    display: flex;
+    margin: auto;
+    margin-top: 0.6rem;
+}
+.projectBtn>button{
+    font-size: 1.5rem;
+    padding: 0.4rem 1.3rem;
+    background-color: brown;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.projectBtn>button:hover{
+    background-color: rgb(180, 60, 60);
+}
+@media screen and (max-width:1200px){
+    .projectList{
+        grid-template-columns: 1fr;
+        width: max-content;
+    }
+    .projectcard{
+        width: 700px;
+    }
+}
+@media screen and (max-width:800px){
+    .projectcard{
+        width: 400px;
+    }
+    .projectDesc>h2{
+        font-size: 1.5rem;
+    }
+    .projectDesc>p{
+        font-size: 1.2rem;
+    }
+    .projectBtn{
+        margin-top: 0;
+    }
+    .projectBtn>button{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:450px){
+    .projects{
+        padding-top: 4rem;
+    }
+    .projectText{
+        font-size: 2rem;
+    }
+    .projectcard{
+        width: 96vw;
+    }
+    .projectDesc>h2{
+        font-size: 1.2rem;
+    }
+    .projectDesc>p{
+        font-size: 1rem;
+    }
+    .projectBtn>button{
+        font-size: 1rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
