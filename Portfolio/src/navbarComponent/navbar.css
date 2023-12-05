@@ -10,7 +10,9 @@
     z-index: 3;
     background-color: rgb(10, 20, 20);
 }
-
+.navigation{
+    display: flex;
+}
 .navigationItems {
     margin: 1rem;
     cursor: pointer;
