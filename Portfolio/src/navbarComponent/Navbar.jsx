@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import './navbar.css'
 import {Link} from 'react-scroll'
 import MS from '../../assets/MS.png'
+import MyResume from '../../assets/Resume.pdf'
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     const handleResume = ()=>{
-        window.open('https://drive.google.com/file/d/1Tq0PxgfSDrEh-kEWBdfy49EpAA67deuM/view?usp=sharing','_blank')
+        window.open('https://drive.google.com/file/d/1Tq0PxgfSDrEh-kEWBdfy49EpAA67deuM/view?usp=sharing','_blank');
+        download={MyResume}
     }
     return (
         <div className='navbar'>
