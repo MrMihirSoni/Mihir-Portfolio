@@ -33,6 +33,9 @@
     cursor: pointer;
     font-size: 1.2rem;
 }
+.homeBtn>a{
+    color: rgb(20, 10, 10);
+}
 .homeBtn:hover{
     background-color: rgb(170, 130, 70);
 }

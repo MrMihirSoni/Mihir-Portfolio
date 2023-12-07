@@ -10,9 +10,15 @@
     z-index: 3;
     background-color: rgb(10, 20, 20);
 }
-.navigation{
+
+.navigation {
     display: flex;
 }
+
+.navigation>a {
+    color: rgb(250, 220, 170);
+}
+
 .navigationItems {
     margin: 1rem;
     cursor: pointer;
@@ -63,6 +69,10 @@
     background-color: rgb(10, 10, 10);
     border-radius: 2rem 0 2rem 2rem;
     min-width: 10rem;
+}
+
+.navMenu>a {
+    color: rgb(250, 220, 170);
 }
 
 .listItems {

@@ -40,7 +40,7 @@ export default function Contact() {
             <i className='bx bxs-phone'></i>
             <p>Phone</p>
             <p>Here is my Phone Number</p>
-            <p onClick={() => navigator.clipboard.writeText(8340504980)}>8340504980</p>
+            <p onClick={() => navigator.clipboard.writeText('+918340504980')}>+91-8340504980</p>
           </div>
           <div className='contactInfo'>
             <i className='bx bxl-gmail' ></i>

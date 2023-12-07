@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import HandWaveEmoji from '../../assets/HandWaveEmoji.png';
 import Dp from '../../assets/DP-For-Portfolio.png';
-import MyResume from '../../assets/Resume.pdf'
+import MyResume from '../../assets/MihirSoni-Resume.pdf'
 const Intro = () => {
     const handleResume = ()=>{
         window.open('https://drive.google.com/file/d/1Tq0PxgfSDrEh-kEWBdfy49EpAA67deuM/view?usp=sharing','_blank')
@@ -15,7 +15,7 @@ const Intro = () => {
                 <p>I'm <span className='myName'>Mihir Soni</span></p>
                 <p>FrontEnd Developer</p>
                 <div className='homeBtnDiv'>
-                <button className='homeBtn' download={MyResume} onClick={handleResume}>Resume</button>
+                <button className='homeBtn' onClick={handleResume}><a href={MyResume} download={MyResume}>Resume</a></button>
                 </div>
             </div>
             <div className='rightSide'><img src={Dp} alt="" /></div>

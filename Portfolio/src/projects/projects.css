@@ -29,30 +29,55 @@
 .projectDesc{
     border-top: 2px solid rgb(10, 20, 20);
 }
-.projectDesc>h2{
+.projectDescription>h2{
     font-size: 2rem;
     color: rgb(40, 40, 40);
     border-bottom: 2px solid rgb(10, 20, 20);
 }
-.projectDesc>p{
-    font-size: 1.6rem;
+.projectDescription>p{
+    font-size: 1.4rem;
     color: rgb(60, 60, 60);
+    border-bottom: 2px solid rgb(10, 20, 20);
 }
 .projectBtn{
     display: flex;
     margin: auto;
-    margin-top: 0.6rem;
+    margin-top: 0.4rem;
 }
 .projectBtn>button{
     font-size: 1.5rem;
     padding: 0.4rem 1.3rem;
     background-color: brown;
+    color: bisque;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
 }
 .projectBtn>button:hover{
     background-color: rgb(180, 60, 60);
+}
+.techProject{
+    display: flex;
+    gap: 0.4rem;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    border-bottom: 2px solid rgb(10, 20, 20);
+}
+.techProject>div>p{
+    font-weight: bold;
+    color: #282828;
+    width: 7rem;
+}
+.techProject>div{
+    display: flex;
+    margin-right: 0.2rem;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+.techProject>div>div{
+    background-color: rgb(160, 40, 40);
+    color: bisque;
+    padding: 0 0.8rem;
+    border-radius: 1rem;
 }
 @media screen and (max-width:1200px){
     .projectList{
@@ -67,14 +92,11 @@
     .projectcard{
         width: 400px;
     }
-    .projectDesc>h2{
+    .projectDesc>div>h2{
         font-size: 1.5rem;
     }
-    .projectDesc>p{
+    .projectDesc>div>p{
         font-size: 1.2rem;
-    }
-    .projectBtn{
-        margin-top: 0;
     }
     .projectBtn>button{
         font-size: 1.2rem;
@@ -90,10 +112,10 @@
     .projectcard{
         width: 96vw;
     }
-    .projectDesc>h2{
+    .projectDesc>div>h2{
         font-size: 1.2rem;
     }
-    .projectDesc>p{
+    .projectDesc>div>p{
         font-size: 1rem;
     }
     .projectBtn>button{

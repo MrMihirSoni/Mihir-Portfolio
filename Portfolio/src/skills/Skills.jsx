@@ -9,7 +9,8 @@ const Skills = () => {
     }, [count])
     return (
         <div className='skills' id='skills'>
-            <h3 className='skillText'>Skills</h3>
+            <h2 className='skillTextMain'>Skills</h2>
+            <h3 className='skillText'>Tech-Stack</h3>
             <div className='skillContent'>
                 {
                     count ? <>
@@ -28,7 +29,7 @@ const Skills = () => {
                         </>
                 }
             </div>
-            <div className='skillText'>Tech-Stack</div>
+            <div className='skillText'>Tool-Stack</div>
             <div className='skillContent'>
                 {
                     count ?
