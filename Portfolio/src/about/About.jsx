@@ -22,7 +22,8 @@ const About = () => {
                 popupWindow&&<Popup/>
             }
             <p><i className='bx bxs-map'></i>Chapra, Bihar</p>
-            <p style={{cursor:'pointer',width:'max-content'}} onClick={() => navigator.clipboard.writeText(8340504980)}><i className='bx bxs-phone'></i>8340504980</p>
+            <p style={{cursor:'pointer',width:'max-content'}} onClick={() => navigator.clipboard.writeText('+918340504980')}><i className='bx bxs-phone'></i>+91-8340504980</p>
+            <p><i onClick={()=>window.open('http://www.linkedin.com/in/mihir-soni-775221261','_blank')} className='bx bxl-linkedin'></i> <i onClick={()=>window.open('https://github.com/MrMihirSoni','_blank')} className='bx bxl-github' ></i> <i onClick={()=>window.open('https://www.instagram.com/_mihir_soni/','_blank')} className='bx bxl-instagram-alt' ></i> <i onClick={()=>window.open('https://twitter.com/_mihir_soni','_blank')} className='bx bxl-twitter' ></i></p>
             </div>
         </div>
     )

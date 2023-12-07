@@ -33,6 +33,12 @@
 .aboutContent>p:nth-child(5)>i:hover{
     color: brown;
 }
+.aboutContent>p:last-child>i{
+    cursor: pointer;
+}
+.aboutContent>p:last-child>i:hover{
+    color: brown;
+}
 @media screen and (max-width:1150px){
     .aboutContent{
         margin: 3rem 4rem;
