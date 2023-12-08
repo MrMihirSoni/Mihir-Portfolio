@@ -9,4 +9,8 @@
 }
 .footerContent>a{
     font-size: 2rem;
+    color: aquamarine;
+}
+.footerContent>a:hover{
+    color: rgb(118, 118, 182);
 }
