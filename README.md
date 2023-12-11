@@ -1,6 +1,6 @@
 ## Mihir-Portfolio
-Hi everyone My name is Mihir Soni.
-I am from Chapra, Bihar.
+Hi everyone My name is Mihir Soni.<br/>
+I am from Chapra, Bihar.<br/>
 And this is my Portfolio.
 
 # Project timeline and technologies used
