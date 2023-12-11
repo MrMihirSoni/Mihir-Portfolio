@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import './navbar.css'
-import {Link} from 'react-scroll'
-import MS from '../../assets/MS.png'
+import React, { useState } from 'react';
+import './navbar.css';
+import {Link} from 'react-scroll';
+import MS from '../../assets/MS.png';
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     const handleResume = ()=>{
