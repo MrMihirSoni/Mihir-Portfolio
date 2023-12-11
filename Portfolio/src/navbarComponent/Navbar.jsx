@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={10} duration={500} className='navigationItems' >Skills</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={20} duration={500} className='navigationItems' >Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={20} duration={500} className='navigationItems' >Contact</Link>
-                <a href='MihirSoni-Resume.pdf' download='MihirSoni-Resume.pdf' onClick={handleResume} className='navigationItems'>Resume</a>
+                <a href='Mihir-Soni-Resume.pdf' download='Mihir-Soni-Resume.pdf' onClick={handleResume} className='navigationItems'>Resume</a>
             </div>
             <div className='menuBtnDiv'><i className='bx bx-menu-alt-right menuBtn' onClick={()=>setShowMenu(!showMenu)}></i></div>
             <div className='navMenu' style={{display: showMenu?'flex':'none'}}>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={10} duration={500} className='listItems' onClick={()=>setShowMenu(false)}>Skills</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={20} duration={500} className='listItems' onClick={()=>setShowMenu(false)}>Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={20} duration={500} className='listItems' onClick={()=>setShowMenu(false)}>Contact</Link>
-                <a href='MihirSoni-Resume.pdf' download='MihirSoni-Resume.pdf' onClick={handleResume} className='listItems'>Resume</a>
+                <a href='Mihir-Soni-Resume.pdf' download='Mihir-Soni-Resume.pdf' onClick={handleResume} className='listItems'>Resume</a>
             </div>
         </div>
     )

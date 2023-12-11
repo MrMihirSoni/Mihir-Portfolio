@@ -14,7 +14,7 @@ const Intro = () => {
                 <p>I'm <span className='myName'>Mihir Soni</span></p>
                 <p>FrontEnd Developer</p>
                 <div className='homeBtnDiv'>
-                <a href='MihirSoni-Resume.pdf' download='MihirSoni-Resume.pdf'><button className='homeBtn' onClick={handleResume}>Resume</button></a>
+                <a href='Mihir-Soni-Resume.pdf' download='Mihir-Soni-Resume.pdf'><button className='homeBtn' onClick={handleResume}>Resume</button></a>
                 </div>
             </div>
             <div className='rightSide'><img src={Dp} alt="" /></div>
