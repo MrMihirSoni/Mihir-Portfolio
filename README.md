@@ -14,6 +14,6 @@ and I have these skills:
 
 # Tech Used
 <img width=50px src='https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png'/>
-<img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'/>
-<img src='https://static.vecteezy.com/system/resources/previews/012/697/299/original/stylized-3d-html-logo-design-free-png.png'/>
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_hJvFrNrGNfNkD4RNZEMdSiIgCnA2mPW4WQ&usqp=CAU'/>
+<img width=50px src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'/>
+<img width=50px src='https://static.vecteezy.com/system/resources/previews/012/697/299/original/stylized-3d-html-logo-design-free-png.png'/>
+<img width=50px src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_hJvFrNrGNfNkD4RNZEMdSiIgCnA2mPW4WQ&usqp=CAU'/>
