@@ -1,4 +1,4 @@
-## Mihir-Portfolio
+# Mihir-Portfolio
 Hi everyone My name is Mihir Soni.<br/>
 I am from Chapra, Bihar.<br/>
 And this is my Portfolio.
@@ -19,6 +19,4 @@ and I have these skills:
   <li><img width=50px src='https://static.vecteezy.com/system/resources/previews/012/697/299/original/stylized-3d-html-logo-design-free-png.png'/> HTML</li>
   <li><img width=50px src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_hJvFrNrGNfNkD4RNZEMdSiIgCnA2mPW4WQ&usqp=CAU'/> CSS</li>
 </ul>
-
-
 
