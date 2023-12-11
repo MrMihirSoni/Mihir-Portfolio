@@ -4,7 +4,7 @@ import HandWaveEmoji from '../../assets/HandWaveEmoji.png';
 import Dp from '../../assets/DP-For-Portfolio.png';
 const Intro = () => {
     const handleResume = ()=>{
-        window.open('https://drive.google.com/file/d/1Tq0PxgfSDrEh-kEWBdfy49EpAA67deuM/view?usp=sharing','_blank')
+        window.open('https://drive.google.com/file/d/1vGXdgIsSqLDg4IRzNdubyQ0f0eiZtsEU/view?usp=sharing','_blank')
         
     }
     return (
