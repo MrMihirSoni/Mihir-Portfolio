@@ -62,6 +62,9 @@
     .aboutContent>p:nth-child(3){
         font-size: 1.2rem;
     }
+    .about>.aboutContent>p:last-child{
+        font-size: 2rem;
+    }
 }
 @media screen and (max-width:500px){
     .aboutContent{
@@ -78,5 +81,7 @@
     .aboutContent>p:nth-child(3){
         font-size: 1rem;
     }
-
+    .about>.aboutContent>p:last-child{
+        font-size: 2rem;
+    }
 }
