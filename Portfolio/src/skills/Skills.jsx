@@ -1,55 +1,213 @@
-import React, { useEffect, useState } from 'react'
-import './skills.css'
+import React, { useEffect, useState } from "react";
+import "./skills.css";
 const Skills = () => {
-    const [count, setCount] = useState(true);
-    useEffect(() => {
-        setTimeout(() => {
-            setCount(!count)
-        }, 2000);
-    }, [count])
-    return (
-        <div className='skills' id='skills'>
-            <h2 className='skillTextMain'>Skills</h2>
-            <h3 className='skillText'>Tech-Stack</h3>
-            <div className='skillContent'>
-                {
-                    count ? <>
-                        <div><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" /><p>HTML</p></div>
-                        <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="" /><p>CSS</p></div>
-                        <div><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" /><p>Java Script</p></div>
-                        <div><img src="https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png" alt="" /><p>Node</p></div>
-                    </>
-                        :
-                        <>
-                            <div><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" /><p>React</p></div>
-                            <div><img src="https://yt3.googleusercontent.com/ytc/APkrFKbRsS7GX05Y9vpXUA7EX0dKwNactEKCCSypeUJY=s900-c-k-c0x00ffffff-no-rj" alt="" style={{ borderRadius: '50%' }} /><p>Chakra UI</p></div>
-                            <div><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png" alt="" /><p>Bootstrap</p></div>
-                            <div><img src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png" alt="" /><p>NPM</p></div>
-
-                        </>
-                }
+  const [count, setCount] = useState(1);
+  useEffect(() => {
+    setTimeout(() => {
+      if (count == 3) setCount(1);
+      else setCount(count + 1);
+    }, 2000);
+  }, [count]);
+  return (
+    <div className="skills" id="skills">
+      <h2 className="skillTextMain">Skills</h2>
+      <h3 className="skillText">Tech-Stack</h3>
+      <div className="skillContent">
+        {count == 1 ? (
+          <>
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+                alt=""
+              />
+              <p>HTML</p>
             </div>
-            <div className='skillText'>Tool-Stack</div>
-            <div className='skillContent'>
-                {
-                    count ?
-                        <>
-                            <div><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /><p>GitHub</p></div>
-                            <div><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" alt="" /><p>VS Code</p></div>
-                            <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png" alt="" /><p>Replit</p></div>
-                            <div><img src="https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png" alt="" /><p>PostMan</p></div>
-                        </>
-                        :
-                        <>
-                            <div><img src="https://iconape.com/wp-content/png_logo_vector/git-icon.png" alt="" /><p>Git</p></div>
-                            <div><img src="https://seeklogo.com/images/V/vercel-logo-F748E39008-seeklogo.com.png" alt="" /><p>Vercel</p></div>
-                            <div><img src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="" /><p>Netlify</p></div>
-                            <div><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/codesandbox-512.png" alt="" /><p>CodeSandBox</p></div>
-                        </>
-                }
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                alt=""
+              />
+              <p>CSS</p>
             </div>
-        </div>
-    )
-}
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                alt=""
+              />
+              <p>Java Script</p>
+            </div>
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png"
+                alt=""
+              />
+              <p>Node</p>
+            </div>
+          </>
+        ) : count == 2 ? (
+          <>
+            <div>
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                alt=""
+              />
+              <p>React</p>
+            </div>
+            <div>
+              <img
+                src="https://yt3.googleusercontent.com/ytc/APkrFKbRsS7GX05Y9vpXUA7EX0dKwNactEKCCSypeUJY=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+                style={{ borderRadius: "50%" }}
+              />
+              <p>Chakra UI</p>
+            </div>
+            <div>
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
+                alt=""
+              />
+              <p>Bootstrap</p>
+            </div>
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png"
+                alt=""
+              />
+              <p>NPM</p>
+            </div>
+          </>
+        ) : (
+          <>
+            <div>
+              <img
+                src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png"
+                alt=""
+              />
+              <p>Express JS</p>
+            </div>
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/mongodb-icon-2048x2048-cezvpn3f.png"
+                alt=""
+              />
+              <p>Mongo DB</p>
+            </div>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png"
+                alt=""
+              />
+              <p>Mongoose</p>
+            </div>
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png"
+                alt=""
+              />
+              <p>Swagger</p>
+            </div>
+          </>
+        )}
+      </div>
+      <div className="skillText">Tool-Stack</div>
+      <div className="skillContent">
+        {count == 1 ? (
+          <>
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt=""
+              />
+              <p>GitHub</p>
+            </div>
+            <div>
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png"
+                alt=""
+              />
+              <p>VS Code</p>
+            </div>
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png"
+                alt=""
+              />
+              <p>Replit</p>
+            </div>
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png"
+                alt=""
+              />
+              <p>PostMan</p>
+            </div>
+          </>
+        ) : count == 2 ? (
+          <>
+            <div>
+              <img
+                src="https://iconape.com/wp-content/png_logo_vector/git-icon.png"
+                alt=""
+              />
+              <p>Git</p>
+            </div>
+            <div>
+              <img
+                src="https://seeklogo.com/images/V/vercel-logo-F748E39008-seeklogo.com.png"
+                alt=""
+              />
+              <p>Vercel</p>
+            </div>
+            <div>
+              <img
+                src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png"
+                alt=""
+              />
+              <p>Netlify</p>
+            </div>
+            <div>
+              <img
+                src="https://cdn3.iconfinder.com/data/icons/feather-5/24/codesandbox-512.png"
+                alt=""
+              />
+              <p>CodeSandBox</p>
+            </div>
+          </>
+        ) : (
+          <>
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/1024px-IntelliJ_IDEA_Icon.svg.png"
+                alt=""
+              />
+              <p>IntelliJ IDEA</p>
+            </div>
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png"
+                alt=""
+              />
+              <p>Swagger</p>
+            </div>
+            <div>
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/chatgpt-icon.png"
+                alt=""
+              />
+              <p>GPT</p>
+            </div>
+            <div>
+              <img
+                src="https://seeklogo.com/images/B/bing-logo-708D786F19-seeklogo.com.png"
+                alt=""
+              />
+              <p>Bing</p>
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;

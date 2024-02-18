@@ -19,6 +19,7 @@
     justify-content: space-between;
 }
 .skillContent>div{
+    transition: opacity 0.5s ease-in-out;
     width: 8rem;
     height: 11rem;
     display: flex;
