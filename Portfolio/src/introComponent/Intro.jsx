@@ -5,7 +5,7 @@ import Dp from "../../assets/DP-For-Portfolio.png";
 import MihirSoniResume from "./Mihir-Soni-Resume.pdf";
 const Intro = () => {
     const handleResume = ()=>{
-        window.open('https://drive.google.com/file/d/1vGXdgIsSqLDg4IRzNdubyQ0f0eiZtsEU/view?usp=sharing','_blank')
+        window.open('https://drive.google.com/file/d/1yqy_ahNcJ96inEvX6eDn9GTd4282nZ0F/view?usp=sharing','_blank')
         
     }
     return (

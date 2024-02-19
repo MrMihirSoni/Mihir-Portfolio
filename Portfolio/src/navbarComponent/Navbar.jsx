@@ -6,7 +6,7 @@ import MihirSoniResume from './Mihir-Soni-Resume.pdf'
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     const handleResume = ()=>{
-        window.open('https://drive.google.com/file/d/1YoDLwsxuWh3jOHEgTC76LVezh9Y6WI1j/view?usp=sharing','_blank');
+        window.open('https://drive.google.com/file/d/1yqy_ahNcJ96inEvX6eDn9GTd4282nZ0F/view?usp=sharing','_blank');
     }
     return (
         <div className='navbar'>
