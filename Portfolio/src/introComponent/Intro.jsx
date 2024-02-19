@@ -13,7 +13,7 @@ const Intro = () => {
             <div className='leftSide'>
                 <p><img src={HandWaveEmoji} alt="" /> Hi!</p>
                 <p>I'm <span className='myName'>Mihir Soni</span></p>
-                <p>FrontEnd Developer</p>
+                <p>MERN Developer</p>
                 <div className='homeBtnDiv'>
                 <a href={MihirSoniResume} download='Mihir-Soni-Resume.pdf'><button className='homeBtn' onClick={handleResume}>Resume</button></a>
                 </div>

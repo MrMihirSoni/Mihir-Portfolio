@@ -16,7 +16,7 @@ const About = () => {
             <h3 className='aboutText'>About</h3>
             <div className='aboutContent'>
             <h3>I am Mihir Soni</h3>
-            <p>Passionate web developer with a knack for crafting visually stunning and user-centric websites. Proficient in React, JS, HTML, CSS, I combine creativity with technical expertise to deliver seamless digital experiences. Committed to staying at the forefront of industry trends, I bring a dynamic approach to every project, ensuring high-quality, performance-driven results.</p>
+            <p>As a seasoned MERN developer, I specialize in crafting visually stunning and user-centric websites. With expertise in React, JavaScript, HTML, CSS, MongoDB, Express, and Node.js, I seamlessly fuse creativity with technical proficiency to deliver captivating digital experiences. My dedication to remaining at the forefront of industry trends drives me to approach each project dynamically, consistently producing high-quality, performance-driven results.</p>
             <p>Drop me a mail @ ms6711534@gmail.com <i onClick={copyToClipBoard} class='bx bx-copy'></i></p>
             {
                 popupWindow&&<Popup/>
