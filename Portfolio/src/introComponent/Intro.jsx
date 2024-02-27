@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import HandWaveEmoji from "../../assets/HandWaveEmoji.png";
-import Dp from "../../assets/DP-For-Portfolio.png";
+import Dp from "../../assets/MihirSoniDP.png";
 import MihirSoniResume from "./Mihir-Soni-Resume.pdf";
 const Intro = () => {
     const handleResume = ()=>{
